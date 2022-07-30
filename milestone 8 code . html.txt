@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>UNORDERED LIST</h2>
+<input type="radio" id="CTS COURSES" name="fav_language" value="CTSCOURSES">
+<label for="CTS COURSES">CTS COURSES</label>
+  
+<ul start="circle">
+  <li>ARCHITECTURAL DRAUGHTSMAN</li>
+  <li>COMPUTER OPERATOR AND PROGRAMMING ASSISTANT</li>
+  <li>ELECTRONIC MECHANIC</li>
+</ul>
+
+<h2>ORDERED LIST</h2>
+<input type="radio" id="NEW AGE COURSES" name="fav_language" value="NEW AGE COURSES">
+<label for="NEW AGE COURSES">NEW AGE COURSES</label>
+<ol start="1">
+  <li>INTERNET OF THINGS</li>
+  <li>ADDITIVE MANUFACTURING TECHNICIAN- 3D PRINTING</li>
+  <li>SMARTPHONE TECHNICIAN CUM APP TESTER</li>
+</ol>
+
+<h2>DEFINATION LIST</h2>
+<input type="radio" id="CITS COURSES" name="fav_language" value="CITS COURSES">
+<label for="CITS COURSES">CITS COURSES</label><br>
+<dl>
+  <dt>COURSE 1</dt>
+  <dd>ARCHITECTURAL DRAUGHTSMAN</dd>
+  <dt>COURSE 2</dt>
+  <dd>COMPUTER SOFTWARE APPLICATIONS</dd>
+  <dt>COURSE 3</dt>
+  <dd>DRESS MAKING</dd>
+</dl>
+
+<form action="/action_page.php" target="_blank">
+  <label for="fname">Select course Name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br><br>
+<input type="submit" value="Submit">
+</form>
+  
+</body>
+</html>
